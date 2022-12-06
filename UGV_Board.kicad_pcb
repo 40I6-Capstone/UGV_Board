@@ -299,7 +299,7 @@
 
   (footprint "Regulators:SPX1117M3-L-3-3&slash_TR" (layer "F.Cu")
     (tedit 0) (tstamp 40db6ea8-8adc-46cc-b228-4da285673da2)
-    (at 134.3738 80.9709)
+    (at 104.14 88.9)
     (property "Sheetfile" "UGV_Board.kicad_sch")
     (property "Sheetname" "")
     (path "/e1da7f9a-c435-4865-a29c-ecdde52c48fe")
