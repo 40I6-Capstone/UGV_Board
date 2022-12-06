@@ -4042,7 +4042,7 @@
     (uuid 42fa0348-d6f3-440b-802f-dcef76e8d02c)
     (property "Reference" "J1" (id 0) (at 276.86 267.97 0))
     (property "Value" "I2C_EXPANSION" (id 1) (at 276.86 270.51 0))
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (id 2) (at 279.4 278.13 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" (id 2) (at 279.4 278.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 279.4 278.13 0)
@@ -5286,7 +5286,7 @@
       (reference "D4") (unit 1) (value "ESP_LED0") (footprint "LED_SMD:LED_2010_5025Metric_Pad1.52x2.65mm_HandSolder")
     )
     (path "/42fa0348-d6f3-440b-802f-dcef76e8d02c"
-      (reference "J1") (unit 1) (value "I2C_EXPANSION") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "I2C_EXPANSION") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
     (path "/75c2a44c-2138-4e6a-93e2-ed701bb8f3d2"
       (reference "J2") (unit 1) (value "Debug Header") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
