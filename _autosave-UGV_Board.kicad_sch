@@ -3952,7 +3952,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Female") (at 443.9619 125.6615 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1fcaef59-27d4-4242-8360-ac5b1e33e3e7)
-    (property "Reference" "J?" (id 0) (at 445.2319 125.6614 0)
+    (property "Reference" "J9" (id 0) (at 445.2319 125.6614 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Battery Header" (id 1) (at 445.2319 128.2015 0)
@@ -4998,7 +4998,7 @@
   (symbol (lib_id "power:GND") (at 432.9043 129.5787 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d099c49c-0d3c-4d8f-8b16-ad1a9bb31217)
-    (property "Reference" "#PWR?" (id 0) (at 432.9043 135.9287 0)
+    (property "Reference" "#PWR0139" (id 0) (at 432.9043 135.9287 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 429.0943 132.1187 0))
@@ -5086,7 +5086,7 @@
   (symbol (lib_id "power:+7.5V") (at 432.9539 123.083 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dc43a708-df8c-4a6b-a99f-7b0d9d026ff5)
-    (property "Reference" "#PWR?" (id 0) (at 436.7639 123.083 0)
+    (property "Reference" "#PWR0138" (id 0) (at 436.7639 123.083 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+7.5V" (id 1) (at 424.0639 123.083 90)
@@ -5491,11 +5491,11 @@
     (path "/b5578900-d8bc-43b8-97d9-e56d4e20b73b"
       (reference "#PWR0137") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/d099c49c-0d3c-4d8f-8b16-ad1a9bb31217"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/dc43a708-df8c-4a6b-a99f-7b0d9d026ff5"
-      (reference "#PWR?") (unit 1) (value "+7.5V") (footprint "")
+      (reference "#PWR0138") (unit 1) (value "+7.5V") (footprint "")
+    )
+    (path "/d099c49c-0d3c-4d8f-8b16-ad1a9bb31217"
+      (reference "#PWR0139") (unit 1) (value "GND") (footprint "")
     )
     (path "/8e5869e2-bbd2-4bca-8704-5fa8462ff71f"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
@@ -5549,7 +5549,7 @@
       (reference "J8") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
     )
     (path "/1fcaef59-27d4-4242-8360-ac5b1e33e3e7"
-      (reference "J?") (unit 1) (value "Battery Header") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+      (reference "J9") (unit 1) (value "Battery Header") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
     )
     (path "/8e1f62bc-e92b-4dd3-93ab-1ffac33da743"
       (reference "L1") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder")
